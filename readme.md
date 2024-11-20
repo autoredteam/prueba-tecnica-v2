@@ -1,9 +1,10 @@
-# Instrucciones para Prueba Técnica
+# Prueba Técnica
+## Ejercicio 1 - Refactorización de código
 
 En esta prueba técnica, se te proporcionará un código que necesita ser depurado, revisado y optimizado. A continuación, se detallan las tareas que debes realizar:
 
 1. **Revisar y explicar el código**:
-    - Analizar el codigo entregado y explicar el funcionamiento del mismo.
+    - Analizar el código entregado y explicar el funcionamiento del mismo.
 
 2. **Corregir Errores**: Identifica y corrige cualquier error presente en el código. Esto incluye errores de lógica, sintaxis y cualquier otro tipo de error que pueda afectar el funcionamiento del código.
 
@@ -129,3 +130,9 @@ En esta prueba técnica, se te proporcionará un código que necesita ser depura
     ..... {}
 ]
 ```
+
+## Ejercicio 2 - Modelo de datos ER
+
+Explicar el siguiente modelo de datos ER, las relaciones entre las tablas (1:1, 1:M, M:N) y el porqué de las mismas.
+
+![Modelo de datos ER](./assets/modelo-er.png)
