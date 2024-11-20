@@ -1,7 +1,7 @@
 import express from "express";
 import get_data from "./controllers/wrong_controller";
 import fakeServices from "./services";
-import getVehicleInfo from "./controllers/correct_controller";
+// import getVehicleInfo from "./controllers/correct_controller";
 
 const app = express();
 const port = 3000;
@@ -10,7 +10,7 @@ app.get("/", (req, res) => res.json("Hello world!"));
 
 // Endpoint principal a corregir.
 app.get("/get_vehicle_info/:license", get_data);
-app.get("/vehicle-info/:license", getVehicleInfo);
+// app.get("/vehicle-info/:license", getVehicleInfo);
 
 
 // Endpoints falsos para obtener información vehícular.
