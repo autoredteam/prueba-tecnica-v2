@@ -1,0 +1,23 @@
+{
+    "name": "nodejs",
+    "version": "1.0.0",
+    "description": "Prueba técnica Autosafe",
+    "license": "MIT",
+    "main": "index.ts",
+    "scripts": {
+        "start": "nodemon index.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/node": "^20.11.16",
+        "nodemon": "^3.0.3",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.3"
+    },
+    "dependencies": {
+        "axios": "^1.7.7",
+        "express": "^4.19.2"
+    }
+}
