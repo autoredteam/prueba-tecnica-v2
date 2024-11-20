@@ -6,9 +6,8 @@ En esta prueba técnica, se te proporcionará un código que necesita ser depura
 1. **Revisar y explicar el código**:
     - Analizar el código entregado y explicar el funcionamiento del mismo.
 
-2. **Corregir Errores**: Identifica y corrige cualquier error presente en el código. Esto incluye errores de lógica, sintaxis y cualquier otro tipo de error que pueda afectar el funcionamiento del código.
-
-3. **Refactorizar Código y aplicar buenas prácticas**: Refactoriza el código para mejorar su legibilidad y mantenibilidad. Esto incluye:
+2. **Corregir, refactorizar Código y aplicar buenas prácticas**: 
+Identifica y corrige cualquier error presente en el código. Refactoriza para mejorar su legibilidad y mantenibilidad. Esto incluye:
    - Eliminar duplicados.
    - Aplicar funciones flecha (arrow functions).
    - Optimizar el código para mejorar su rendimiento.
@@ -19,6 +18,7 @@ En esta prueba técnica, se te proporcionará un código que necesita ser depura
    - Código limpio y bien estructurado.
    - Modularizar el código.
    - Se sugiere usar axios para las solicitudes HTTP.
+   - Puntos extra: Crear test unitarios
 
 
 ### Funcionamiento esperado:

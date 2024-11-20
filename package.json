@@ -5,7 +5,8 @@
     "license": "MIT",
     "main": "index.ts",
     "scripts": {
-        "start": "nodemon index.ts"
+        "start": "nodemon index.ts",
+        "test": "jest"
     },
     "keywords": [],
     "author": "",
