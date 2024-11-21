@@ -1,33 +1,35 @@
 # Prueba Técnica
+
+
+## Requisitos Previos
+  - Buena conexión a internet
+  - Deberás compartir pantalla en todo momento
+  - Tener instalado `NodeJS` y `npm` para poder ejecutar el proyecto
+
 ## Ejercicio 1 - Refactorización de código
 
-En esta prueba técnica, se te proporcionará un código que necesita ser depurado, revisado y optimizado. A continuación, se detallan las tareas que debes realizar:
+En esta prueba técnica, se te proporcionará un código que necesita ser analizado, depurado y optimizado aplicando buenas prácticas de programación.
 
-1. **Revisar y explicar el código**:
-    - Analizar el código entregado y explicar el funcionamiento del mismo.
-
-2. **Corregir, refactorizar Código y aplicar buenas prácticas**: 
-Identifica y corrige cualquier error presente en el código. Refactoriza para mejorar su legibilidad y mantenibilidad. Esto incluye:
-   - Eliminar duplicados.
+#### Criterios de evaluación:
+   - Eliminar funciones o variables duplicadas.
    - Aplicar funciones flecha (arrow functions).
-   - Optimizar el código para mejorar su rendimiento.
    - Utilizar `async/await` en lugar de promesas anidadas.
    - Evitar `ifs` anidados y callbacks anidados.
    - Uso de `camelCase` para nombres de variables y funciones.
    - Comentarios claros y concisos donde sea necesario.
    - Código limpio y bien estructurado.
-   - Modularizar el código.
-   - Se sugiere usar axios para las solicitudes HTTP.
-   - Puntos extra: Crear test unitarios
+   - Corregir errores para obtener el resultado esperado detallado en la sección de "Funcionamiento esperado".
+
+#### Plus:
+   - Utilizar axios para las solicitudes HTTP.
+   - Crear test unitarios.
 
 
-### Funcionamiento esperado:
+#### Funcionamiento esperado:
+Se espera que el código funcione correctamente y devuelva el resultado esperado al ejecutar el endpoint `http://localhost:3000/vehicle-info/:license`
 
-
-
+- http://localhost:3000/vehicle-info/AAAA01
 ```typescript
-"/vehicle-info/AAAA01"
-
 {
     totalLoss: { 
         status: 'OK', 
@@ -46,12 +48,10 @@ Identifica y corrige cualquier error presente en el código. Refactoriza para me
         },
     },
     fines: { status: 'OK', data: [] },
-};
+}
 ```
-
+- http://localhost:3000/vehicle-info/AAAA00
 ```typescript
-"/vehicle-info/AAAA00"
-
 {
     totalLoss: { 
         status: 'NOT_OK', 
@@ -93,7 +93,8 @@ Identifica y corrige cualquier error presente en el código. Refactoriza para me
 }
 ```
 
-## Endpoints disponibles
+####  Endpoints disponibles
+Estos endpoints simulan un servicio externo y se utilizan para obtener la información necesaria para el informe del vehículo, no se deben modificar.
 
 - http://localhost:3000/total-loss/:license
 
@@ -130,6 +131,7 @@ Identifica y corrige cualquier error presente en el código. Refactoriza para me
     ..... {}
 ]
 ```
+
 
 ## Ejercicio 2 - Modelo de datos ER
 
