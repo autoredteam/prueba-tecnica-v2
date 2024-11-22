@@ -8,21 +8,7 @@
 
 ## Ejercicio 1 - Refactorización de código
 
-En esta prueba técnica, se te proporcionará un código que necesita ser analizado, depurado y optimizado aplicando buenas prácticas de programación.
-
-#### Criterios de evaluación:
-   - Eliminar funciones o variables duplicadas.
-   - Aplicar funciones flecha (arrow functions).
-   - Utilizar `async/await` en lugar de promesas anidadas.
-   - Evitar `ifs` anidados y callbacks anidados.
-   - Uso de `camelCase` para nombres de variables y funciones.
-   - Comentarios claros y concisos donde sea necesario.
-   - Código limpio y bien estructurado.
-   - Corregir errores para obtener el resultado esperado detallado en la sección de "Funcionamiento esperado".
-
-#### Plus:
-   - Utilizar axios para las solicitudes HTTP.
-   - Crear test unitarios.
+En este ejercicio, se te proporcionará un código que necesita ser analizado, corregido y optimizado aplicando buenas prácticas de programación.
 
 
 #### Funcionamiento esperado:
