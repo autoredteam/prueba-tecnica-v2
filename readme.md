@@ -10,6 +10,16 @@
 
 En este ejercicio, se te proporcionará un código que necesita ser analizado, corregido y optimizado aplicando buenas prácticas de programación.
 
+#### Algunos criterios de evaluación:
+   - Aplicar funciones flecha (arrow functions).
+   - Utilizar `async/await` en lugar de promesas anidadas.
+   - Comentarios claros y concisos donde sea necesario.
+   - Código limpio y bien estructurado.
+   - Corregir errores para obtener el resultado esperado detallado en la sección de "Funcionamiento esperado".
+
+#### Plus:
+   - Utilizar axios para las solicitudes HTTP.
+   - Crear test unitarios.
 
 #### Funcionamiento esperado:
 Se espera que el código funcione correctamente y devuelva el resultado esperado al ejecutar el endpoint `http://localhost:3000/vehicle-info/:license`
